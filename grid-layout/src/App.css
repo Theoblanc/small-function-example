@@ -1,0 +1,26 @@
+.App {
+  display: grid;
+  height: 100vh;
+}
+
+.one {
+  background-color: aquamarine;
+  grid-column: 1 / 16;
+}
+.two {
+  background-color: cyan;
+  grid-column: 1 / 4;
+  grid-row: 3 / 5;
+}
+.three {
+  background-color: yellowgreen;
+}
+.four {
+  background-color: rgb(214, 120, 218);
+}
+.five {
+  background-color: rgb(235, 236, 142);
+}
+.six {
+  background-color: rgb(214, 46, 110);
+}
