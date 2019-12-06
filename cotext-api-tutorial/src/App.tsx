@@ -8,8 +8,6 @@ export const themes = {
 
 export const ThemeContext = React.createContext(themes);
 
-console.log(ThemeContext);
-
 const App: React.FC = () => {
   return (
     <div className="App">
